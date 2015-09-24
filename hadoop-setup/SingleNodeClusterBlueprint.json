@@ -1,0 +1,102 @@
+{
+		  "configurations" : [],
+		  "host_groups" : [
+		    {
+		      "name" : "host_group_1",
+		      "components" : [
+		        {
+		          "name" : "PIG"
+		        },
+		        {
+		          "name" : "HISTORYSERVER"
+		        },
+		        {
+		          "name" : "HBASE_REGIONSERVER"
+		        },
+		        {
+		          "name" : "OOZIE_CLIENT"
+		        },
+		        {
+		          "name" : "HBASE_CLIENT"
+		        },
+		        {
+		          "name" : "NAMENODE"
+		        },
+		        {
+		          "name" : "HCAT"
+		        },
+		        {
+		          "name" : "METRICS_MONITOR"
+		        },
+		        {
+		          "name" : "AMBARI_SERVER"
+		        },
+		        {
+		          "name" : "APP_TIMELINE_SERVER"
+		        },
+		        {
+		          "name" : "HIVE_CLIENT"
+		        },
+		        {
+		          "name" : "HDFS_CLIENT"
+		        },
+		        {
+		          "name" : "NODEMANAGER"
+		        },
+		        {
+		          "name" : "METRICS_COLLECTOR"
+		        },
+		        {
+		          "name" : "DATANODE"
+		        },
+		        {
+		          "name" : "WEBHCAT_SERVER"
+		        },
+		        {
+		          "name" : "RESOURCEMANAGER"
+		        },
+		        {
+		          "name" : "ZOOKEEPER_SERVER"
+		        },
+		        {
+		          "name" : "ZOOKEEPER_CLIENT"
+		        },
+		        {
+		          "name" : "HBASE_MASTER"
+		        },
+		        {
+		          "name" : "HIVE_SERVER"
+		        },
+		        {
+		          "name" : "OOZIE_SERVER"
+		        },
+		        {
+		          "name" : "SECONDARY_NAMENODE"
+		        },
+		        {
+		          "name" : "TEZ_CLIENT"
+		        },
+		        {
+		          "name" : "HIVE_METASTORE"
+		        },
+		        {
+		          "name" : "SQOOP"
+		        },
+		        {
+		          "name" : "YARN_CLIENT"
+		        },
+		        {
+		          "name" : "MAPREDUCE2_CLIENT"
+		        },
+		        {
+		          "name" : "MYSQL_SERVER"
+		        }
+		      ],
+		      "cardinality" : "1"
+		    }
+		  ],
+		  "Blueprints" : {
+		    "stack_name" : "HDP",
+		    "stack_version" : "2.2"
+		  }
+		}

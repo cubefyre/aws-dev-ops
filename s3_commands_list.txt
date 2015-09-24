@@ -1,0 +1,32 @@
+#make bucket
+aws s3 mb s3://app/setup
+
+# copy from s3 recursively
+aws s3 cp s3://app/zeppelin/notebook/ notebook --recursive
+
+#s3 sync
+aws s3 sync data s3://yahoo-photos-event-logs/data --exclude *.tmp 
+
+# get summary
+aws s3 ls s3://app/parquet_pixel_firings --recursive --human-readable --summarize
+# aws s3 ls s3://logs.segment.production/segment-logs/app/ --recursive --human-readable --summarize
+
+# Change password daily
+# pwd=$(tr -dc A-Za-z0-9_ < /dev/urandom | head -c 8)
+# sudo htpasswd -b -c /data/test_drive/www/.htpasswd $login $pwd
+# echo "The new username / password for app.com is $login / $pwd." | mail -s "Password for app.com has been reset." jitender@app.com
+
+### Using S3 CMD
+
+#set acl
+./s3cmd setacl --acl-grant=full_control:CANNONICAL_ID --recursive s3://customer.appp
+
+# ls
+./s3cmd ls s3://customer.app
+
+#get
+./s3cmd get s3://app/_distcp_tmp_v252f2/parquet_pixel_firings/000000_0
+
+# Bash command
+# find and remove files that has _$ in the name
+find . -name "*_\$*" -exec rm {} \;

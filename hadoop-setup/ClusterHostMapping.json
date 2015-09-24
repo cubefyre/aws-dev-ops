@@ -1,0 +1,14 @@
+{
+  "blueprint" : "replaced_by_python_script",
+  "default_password" : "hadoop",
+  "host_groups" :[
+    {
+      "name" : "host_group_1", 
+      "hosts" : [         
+        {
+          "fqdn" : "replaced_by_python_script"
+        }
+      ]
+    }
+  ]
+}
