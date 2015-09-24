@@ -1,6 +1,6 @@
 # Author - Jitender Aswani
 # May 2015
-# Organization - SparklineData
+# Organization - SparklineData (Now CubeFyre)
 # Description - Edit Ambari settings based on input params from the launch scripts
 
 import sys, getopt, ConfigParser

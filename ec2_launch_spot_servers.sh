@@ -8,7 +8,7 @@
 # 
 # Author - Jitender Aswani
 # May 2015
-# Organization - SparklineData
+# Organization - SparklineData (Now CubeFyre)
 . ec2_spot_server_request.properties
 
 usage="$(basename "$0") [-h] [-c] -- design and launch a single machine or a set of machines

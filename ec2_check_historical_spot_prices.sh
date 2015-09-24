@@ -6,7 +6,7 @@
 #	    -i  --configure use interactive wizzard to configure cluster/server settings (some values from ec2_spot_server_request.properties will be overwritten"
 # Author - Jitender Aswani
 # May 2015
-# Organization - SparklineData
+# Organization - SparklineData (Now CubeFyre)
 
 . ec2_spot_server_request.properties
 usage="$(basename "$0") [-h] [-i] -- check spot prices

@@ -2,7 +2,7 @@
 # We built our own scripts to launch spark cluster, control the AMI and other intricate things.
 # Author - Jitender Aswani
 # May 2015
-# Organization - SparklineData
+# Organization - SparklineData (Now CubeFyre)
 
 export AWS_SECRET_ACCESS_KEY="YOUR_KEY"
 export AWS_ACCESS_KEY_ID="YOUR_KEY"

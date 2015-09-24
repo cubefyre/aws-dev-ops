@@ -5,7 +5,7 @@
 # The script then shutsdown everything and cleans up. 
 # Author - Jitender Aswani
 # May 2015
-# Organization - SparklineData
+# Organization - SparklineData (Now CubeFyre)
 
 echo "Setting up $instanceIDs"
 # get public dns

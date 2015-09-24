@@ -5,7 +5,7 @@
 # It will then start desired web and app services.
 # Author - Jitender Aswani
 # May 2015
-# Organization - SparklineData
+# Organization - SparklineData (Now CubeFyre)
 
     echo "Setting up $instanceIDs"
     

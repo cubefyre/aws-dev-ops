@@ -1,6 +1,6 @@
 # Author - Jitender Aswani
 # May 2015
-# Organization - SparklineData
+# Organization - SparklineData (Now CubeFyre)
 # Description - Setup hadoop cluster using amabri blueprint
 # curl -H "X-Requested-By: ambari" -X GET -u admin:admin http://ec2.compute-1.amazonaws.com:8080/api/v1/clusters/SparklineOne?format=blueprint
 # blog - https://blog.codecentric.de/en/2014/05/lambda-cluster-provisioning/

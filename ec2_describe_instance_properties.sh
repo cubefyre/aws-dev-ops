@@ -2,7 +2,7 @@
 # Description - Loads a properties file, read instance type and execute command to read a desired property
 # Author - Jitender Aswani
 # May 2015
-# Organization - SparklineData
+# Organization - SparklineData (Now CubeFyre)
 
 # load server response properties
 . ec2_spot_server_response.properties

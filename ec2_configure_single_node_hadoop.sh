@@ -5,7 +5,7 @@
 # The script will use python code to generate ambari ini file and will use blueprint to setup the cluster. 
 # Author - Jitender Aswani
 # May 2015
-# Organization - SparklineDataa
+# Organization - SparklineData (Now CubeFyre)
 
 # Sample properties - put these properties in spot_server_request.properties file
 ## hadoop cluster properties for ambari using blueprint rest apis
@@ -21,6 +21,7 @@
 # securityGroup=sparkline-cluster-security-group
 ## hadoop single node cluster script
 # configureServerScript=ec2_configure_single_node_hadoop.sh
+
 
 echo "Setting up $instanceIDs"
 

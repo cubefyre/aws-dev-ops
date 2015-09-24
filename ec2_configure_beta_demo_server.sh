@@ -5,7 +5,7 @@
 # It will then start desired beta app.
 # Author - Jitender Aswani
 # May 2015
-# Organization - SparklineData
+# Organization - SparklineData (Now CubeFyre)
 
 echo "Setting up $instanceIDs"
 

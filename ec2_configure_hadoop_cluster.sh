@@ -6,7 +6,7 @@
 # Check out the single-node setup which leverages blueprint to setup the cluster without requiring any manual setup.
 # Author - Jitender Aswani
 # May 2015
-# Organization - SparklineData
+# Organization - SparklineData (Now CubeFyre)
 
 # break instances into instance array
 instanceIDs=($instanceIDs)

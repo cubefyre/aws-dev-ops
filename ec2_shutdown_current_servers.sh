@@ -2,7 +2,7 @@
 # Description - Loads respone properties file, read instance ids and execute command to shutdown instances
 # Author - Jitender Aswani
 # May 2015
-# Organization - SparklineData
+# Organization - SparklineData (Now CubeFyre)
 
 . ec2_spot_server_response.properties
 

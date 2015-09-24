@@ -2,7 +2,7 @@
 # Description - Called by ec2_launch_spot_server script - this script submits the spot requests
 # Author - Jitender Aswani
 # May 2015
-# Organization - SparklineData
+# Organization - SparklineData (Now CubeFyre)
 
  echo 'Submitting request: '
  echo aws ec2 request-spot-instances \
