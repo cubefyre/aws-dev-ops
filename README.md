@@ -1,6 +1,6 @@
 # aws-scripts
 
-Set of AWS dev-ops scripts to launch and control instances in AWS EC2 evnironment. This scripts were developed 
+Set of AWS dev-ops scripts to launch and control instances in AWS EC2 environment. This scripts were developed 
 at SparklineData (now CubeFyre) and have now been made available in a public repository. 
 
 - Check spot prices
